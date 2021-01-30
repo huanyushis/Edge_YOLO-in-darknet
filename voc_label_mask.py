@@ -6,7 +6,7 @@ from os.path import join
 from tqdm import tqdm
 sets=[('2007', 'train'), ('2007', 'val'), ('2007', 'test')]
 
-classes = ["mask","no_mask","err_masks"]
+classes = ["mask","no_mask","err_mask"]
 
 
 def convert(size, box):
